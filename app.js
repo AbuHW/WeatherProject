@@ -32,6 +32,9 @@ app.post("/", (req, res) => {
   });
 });
 
-app.listen(process.env.PORT || 3000, () => {
+const server = app.listen(process.env.PORT || 3000, () => {
   console.log("Successfuly connected");
 });
+
+server.keepAliveTimeout = 120 * 1000;
+server.headersTimeout = 120 * 1000;
