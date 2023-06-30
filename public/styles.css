@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(7, 18, 20);
+  }
+  
+div{
+    position: relative;
+    margin: 2%;
+    align-content: center;
+}
+
+h1{
+  color: white;
+  font-family: 'Caprasimo', cursive;
+  font-size:xx-large;
+  text-align: center;
+  margin-top: 5%;
+}
+
+#bt{
+  margin: auto;
+  width: 60%;
+  border: 1px solid #73AD21;
+  padding: 20px;
+  size: 10px;
+  
+
+}
+#cn{
+  margin: auto;
+  width: 60%;
+  border: 1px solid #73AD21;
+  padding: 20px;
+  
+
+}
+
+
+
