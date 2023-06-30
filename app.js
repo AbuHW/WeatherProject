@@ -23,9 +23,9 @@ app.post("/", (req, res) => {
   https.get(url, (response) => {
     response.on("data", (data) => {
       const weatherData = JSON.parse(data);
-      const temp = weatherData.main.temp;
+      // const temp = weatherData.main.temp;
       const condition = weatherData.weather[0].description;
-      res.write("<h1>The temperature is " + temp + "</h1>");
+      // res.write("<h1>The temperature is " + temp + "</h1>");
       res.write("<h1>The conditione : " + condition + "</h1>");
       res.send();
     });
